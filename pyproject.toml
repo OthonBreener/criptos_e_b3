@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "criptos_e_b3"
+version = "0.1.0"
+description = "Api criada para acompanhar os valores das cripto moedas e da bolsa de valores"
+authors = ["othonbreener <othonbrener123@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.23.0"
+ipdb = "^0.13.9"
+pandas = "^1.4.3"
+matplotlib = "^3.5.3"
+numpy = "^1.23.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
