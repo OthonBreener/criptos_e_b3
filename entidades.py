@@ -116,6 +116,11 @@ class Cripto:
         ultima_atualizacao_dos_precos,
         sparkline_7d_usd,
     ):
+        data_alta_historico_usd
+        data_alta_historico_brl
+        data_baixa_historico_usd
+        data_baixa_historico_brl
+        ultima_atualizacao_dos_precos
 
         return cls(
             id=id, 
@@ -125,4 +130,50 @@ class Cripto:
             valor_brl=valor_brl,
             alta_historica_usd=alta_historica_usd,
             alta_historica_brl=alta_historica_brl,
+            data_alta_historico_usd=data_alta_historico_usd,
+            data_alta_historico_brl=data_alta_historico_brl,
+            porcentagem_de_alteracao_ath_usd=porcentagem_de_alteracao_ath_usd,
+            porcentagem_de_alteracao_ath_brl=porcentagem_de_alteracao_ath_brl,
+            baixa_historica_usd=baixa_historica_usd,
+            baixa_historica_brl=baixa_historica_brl,
+            baixa_historica_data_usd=baixa_historica_data_usd,
+            baixa_historica_data_brl=baixa_historica_data_brl,
+            porcentagem_de_alteracao_atl_usd=porcentagem_de_alteracao_atl_usd,
+            porcentagem_de_alteracao_atl_brl=porcentagem_de_alteracao_atl_brl,
+            captalizacao_de_mercado_usd=captalizacao_de_mercado_usd,
+            captalizacao_de_mercado_brl=captalizacao_de_mercado_brl,
+            rank_de_captalizacao=rank_de_captalizacao,
+            captalizacao_de_mercado_tdiluida_usd=captalizacao_de_mercado_tdiluida_usd,
+            captalizacao_de_mercado_tdiluida_brl=captalizacao_de_mercado_tdiluida_brl,
+            data_baixa_historico_usd=data_baixa_historico_usd,
+            data_baixa_historico_brl=data_baixa_historico_brl,
+            volume_total_usd=volume_total_usd,
+            volume_total_brl=volume_total_brl,
+            alta_de_24h_usd=alta_de_24h_usd,
+            alta_de_24h_brl=alta_de_24h_brl,
+            baixa_de_24h_usd=baixa_de_24h_usd,
+            baixa_de_24h_brl=baixa_de_24h_brl,
+            mundanca_de_preco_em_24h_usd=mundanca_de_preco_em_24h_usd,
+            mundanca_de_preco_em_24h_brl=mundanca_de_preco_em_24h_brl,
+            percentual_de_mudanca_de_preco_24h_usd=percentual_de_mudanca_de_preco_24h_usd,
+            percentual_de_mudanca_de_preco_24h_brl=percentual_de_mudanca_de_preco_24h_brl,
+            percentual_de_mudanca_de_preco_7d_usd=percentual_de_mudanca_de_preco_7d_usd,
+            percentual_de_mudanca_de_preco_7d_brl=percentual_de_mudanca_de_preco_7d_brl,
+            percentual_de_mudanca_de_preco_14d_usd=percentual_de_mudanca_de_preco_14d_usd,
+            percentual_de_mudanca_de_preco_14d_brl=percentual_de_mudanca_de_preco_14d_brl,
+            percentual_de_mudanca_de_preco_30d_usd=percentual_de_mudanca_de_preco_30d_usd,
+            percentual_de_mudanca_de_preco_30d_brl=percentual_de_mudanca_de_preco_30d_brl,
+            percentual_de_mudanca_de_preco_60d_usd=percentual_de_mudanca_de_preco_60d_usd,
+            percentual_de_mudanca_de_preco_60d_brl=percentual_de_mudanca_de_preco_60d_brl,
+            percentual_de_mudanca_de_preco_1a_usd=percentual_de_mudanca_de_preco_1a_usd,
+            percentual_de_mudanca_de_preco_1a_brl=percentual_de_mudanca_de_preco_1a_brl,
+            fornecimento_total=fornecimento_total,
+            fornecimento_maximo=fornecimento_maximo,
+            fornecimento_circulante=fornecimento_circulante,
+            ultima_atualizacao_dos_precos=ultima_atualizacao_dos_precos,
+            sparkline_7d_usd=sparkline_7d_usd,
         )
+
+
+data = "2021-11-10T14:24:11.849Z"
+converter = "%Y-%m-%dT%H:%M:%SZ"
